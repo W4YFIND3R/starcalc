@@ -26,4 +26,5 @@ Features:
 - **PyInstaller** Version 5.13.2: PyInstaller bundles a Python application and all its dependencies into a single package. [PyPI Link](https://pypi.org/project/pyinstaller/)
 
 Example build command using PyInstaller to pack everything into a single .exe for Windows: 
+
 pyinstaller --onefile --noconsole --add-data="Monoid-Regular.ttf;." --add-data="starcalcsplash.png;." --add-data="starcalcicon.ico;." --icon="starcalcicon.ico" starfield_mouse_scale_calc.py
