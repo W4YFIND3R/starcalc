@@ -62,7 +62,7 @@ class MouseScaleCalculator(QWidget):
 
         banner_container = QWidget(self)
         banner_container.setLayout(banner_layout)
-        banner_container.setStyleSheet("background-color: #2f4c79;")  # Set the background color to off-white to act as the border
+        banner_container.setStyleSheet("background-color: #2f4c79;")  # Set the background color
 
         for color in banner_colors:
             line_widget = PatternWidget(color, self)
