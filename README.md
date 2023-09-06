@@ -20,7 +20,10 @@ Features:
 
 ![image](https://github.com/W4YFIND3R/starcalc/assets/144207244/d36f9f42-d193-4484-8612-311215ad1594)
 
-## Dependencies
-- **Python**: This project requires Python version 3.x. [Download Python](https://www.python.org/downloads/)
-- **Qt**: This project uses the Qt framework for its GUI components. Ensure you have the appropriate version of Qt installed.
+## Items used to build
+- **Python** Version 3.11.5: [Download Python](https://www.python.org/downloads/)
+- **PySide6** Version: 6.5.2: PySide6 is the official Python module from the Qt for Python project, which provides access to the complete Qt 6.0+ framework. https://pypi.org/project/PySide6/
+- **PyInstaller** Version 5.13.2: PyInstaller bundles a Python application and all its dependencies into a single package. [PyPI Link](https://pypi.org/project/pyinstaller/)
 
+Example build command using PyInstaller to pack everything into a single .exe for Windows: 
+pyinstaller --onefile --noconsole --add-data="Monoid-Regular.ttf;." --add-data="starcalcsplash.png;." --add-data="starcalcicon.ico;." --icon="starcalcicon.ico" starfield_mouse_scale_calc.py
