@@ -1,4 +1,4 @@
-# starcalc
+# Starfield Mouse Scale Calculator
 A Starfield Mouse X Y Scale Calculator written in Python. Get the latest release from the [releases page](https://github.com/W4YFIND3R/starcalc/releases).
 
 Starfield's Mouse scaling is not 1:1 X to Y, which was not optimal and did not feel right to me.
