@@ -16,6 +16,7 @@ Features:
 - User field to enter a manual fMouseHeadingXScale= if the default program's 0.021 isn't optimal
 - Checkbox for including a line to disable mouse acceleration
 - Has a colorful banner and icon
+- Uses less than 1MB of System Memory
 - Uses Monoid text by https://larsenwork.com/monoid/
 
 ![image](https://github.com/W4YFIND3R/starcalc/assets/144207244/d36f9f42-d193-4484-8612-311215ad1594)
