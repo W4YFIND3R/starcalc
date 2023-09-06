@@ -280,7 +280,7 @@ if __name__ == "__main__":
         splash.close()
         window.show()
 
-    # Delay the display of the main window for 2 seconds
+    # Delay the display of the main window in milliseconds, This was used so temporary files have a chance to unpack and so the splash screen can show
     QTimer.singleShot(4000, show_main_app)
 
     window = MouseScaleCalculator()
